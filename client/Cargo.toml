@@ -1,0 +1,13 @@
+[package]
+name = "myapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+coap = "0.9.0"
+coap-lite = "0.9.1"
+
+
+[[bin]]
+name = "coap-client"
+path = "src/main.rs"
